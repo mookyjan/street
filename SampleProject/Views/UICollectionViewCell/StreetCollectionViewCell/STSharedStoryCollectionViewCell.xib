@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="STSharedStoryCollectionViewCell" id="OmE-fv-SKL" userLabel="STSharedStoryCollectionViewCell" customClass="STSharedStoryCollectionViewCell" customModule="STREET" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="151" height="245"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="151" height="245"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0je-tm-xkc">
+                        <rect key="frame" x="55" y="202" width="40" height="2"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="fM5-E5-0eq"/>
+                            <constraint firstAttribute="width" constant="40" id="rub-S3-ixL"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="At 4:30 PM" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPF-LE-F8d">
+                        <rect key="frame" x="8" y="214" width="135" height="10"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="8"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.21960784310000001" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="m1q-TO-SiF">
+                        <rect key="frame" x="40" y="13" width="71" height="69"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="m1q-TO-SiF" secondAttribute="height" multiplier="69:67" id="nI5-a4-wog"/>
+                            <constraint firstAttribute="height" constant="69" id="x8w-eJ-s4g"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shared a story" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="395-UW-Ef4">
+                        <rect key="frame" x="0.0" y="125" width="151" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.2196078431372549" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copacabana Beach" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lm-Kd-c2E">
+                        <rect key="frame" x="0.0" y="166" width="151" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.58431372550000005" green="0.61960784310000006" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Graham" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M1H-Mr-8an">
+                        <rect key="frame" x="0.0" y="91" width="151" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.21960784310000001" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="0je-tm-xkc" firstAttribute="centerX" secondItem="5lm-Kd-c2E" secondAttribute="centerX" id="5Td-aN-cO8"/>
+                <constraint firstItem="5lm-Kd-c2E" firstAttribute="leading" secondItem="395-UW-Ef4" secondAttribute="leading" id="67U-Nd-ro3"/>
+                <constraint firstItem="m1q-TO-SiF" firstAttribute="top" secondItem="OmE-fv-SKL" secondAttribute="top" constant="13" id="6f3-pP-gqb"/>
+                <constraint firstItem="0je-tm-xkc" firstAttribute="top" secondItem="5lm-Kd-c2E" secondAttribute="bottom" constant="19" id="8IZ-te-GqX"/>
+                <constraint firstItem="395-UW-Ef4" firstAttribute="top" secondItem="M1H-Mr-8an" secondAttribute="bottom" constant="14" id="8qD-9n-eIu"/>
+                <constraint firstItem="VPF-LE-F8d" firstAttribute="top" secondItem="0je-tm-xkc" secondAttribute="bottom" constant="10" id="ItH-Ed-E0E"/>
+                <constraint firstItem="5lm-Kd-c2E" firstAttribute="top" secondItem="395-UW-Ef4" secondAttribute="bottom" constant="24" id="K83-lE-Lzu"/>
+                <constraint firstItem="5lm-Kd-c2E" firstAttribute="trailing" secondItem="395-UW-Ef4" secondAttribute="trailing" id="Kjv-RM-TTe"/>
+                <constraint firstItem="395-UW-Ef4" firstAttribute="leading" secondItem="OmE-fv-SKL" secondAttribute="leading" id="QVz-u9-l4T"/>
+                <constraint firstAttribute="trailing" secondItem="395-UW-Ef4" secondAttribute="trailing" id="Xed-7V-WAM"/>
+                <constraint firstItem="M1H-Mr-8an" firstAttribute="top" secondItem="m1q-TO-SiF" secondAttribute="bottom" constant="9" id="agD-cF-xpL"/>
+                <constraint firstItem="VPF-LE-F8d" firstAttribute="leading" secondItem="OmE-fv-SKL" secondAttribute="leading" constant="8" id="dFR-6M-o6G"/>
+                <constraint firstAttribute="trailing" secondItem="VPF-LE-F8d" secondAttribute="trailing" constant="8" id="hmO-Ge-I8Q"/>
+                <constraint firstItem="M1H-Mr-8an" firstAttribute="leading" secondItem="OmE-fv-SKL" secondAttribute="leading" id="jPh-B5-dDi"/>
+                <constraint firstAttribute="trailing" secondItem="M1H-Mr-8an" secondAttribute="trailing" id="rNI-Rq-0Ni"/>
+                <constraint firstItem="m1q-TO-SiF" firstAttribute="centerX" secondItem="OmE-fv-SKL" secondAttribute="centerX" id="uvr-8g-3ae"/>
+            </constraints>
+            <size key="customSize" width="151" height="297"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="5"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="309.5" y="286.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="image" width="171" height="171"/>
+    </resources>
+</document>

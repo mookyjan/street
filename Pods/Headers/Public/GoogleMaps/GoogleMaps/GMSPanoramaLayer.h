@@ -1,0 +1,5 @@
+XSym
+0106
+a25de701f3564a467ba79042c1d4f988
+../../../../GoogleMaps/Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaLayer.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

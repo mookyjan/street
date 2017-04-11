@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="STPartOfInvitationStoryCollectionCell" id="2BZ-E0-cGl" userLabel="STPartOfInvitationStoryCollectionCell" customClass="STPartOfInvitationStoryCollectionCell" customModule="STREET" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="151" height="254"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="151" height="254"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="l2d-9n-zem">
+                        <rect key="frame" x="38" y="18" width="75" height="73"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="73" id="mXf-A8-AUj"/>
+                            <constraint firstAttribute="width" secondItem="l2d-9n-zem" secondAttribute="height" multiplier="69:67" id="ro3-PP-Yih"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ask Italian" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNN-AY-324">
+                        <rect key="frame" x="0.0" y="179" width="151" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.58823529409999997" green="0.61568627450000002" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TeQ-wE-2ko">
+                        <rect key="frame" x="55" y="209" width="40" height="2"/>
+                        <color key="backgroundColor" red="0.20784313730000001" green="0.21960784310000001" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="jpg-Kg-9Az"/>
+                            <constraint firstAttribute="height" constant="2" id="wmC-XN-qfW"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Graham" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v4c-X7-i3D">
+                        <rect key="frame" x="0.0" y="104" width="151" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20784313730000001" green="0.21960784310000001" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6:30 PM - 4 AUG 2015" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEB-q8-xUy">
+                        <rect key="frame" x="8" y="230" width="135" height="10"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="8"/>
+                        <color key="textColor" red="0.20784313730000001" green="0.21960784310000001" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKC-De-VU6">
+                        <rect key="frame" x="0.0" y="139" width="151" height="17"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Invited">
+                                <attributes>
+                                    <color key="NSColor" red="0.20784313725490194" green="0.2196078431372549" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="HelveticaNeue-Light"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content=" ">
+                                <attributes>
+                                    <color key="NSColor" red="0.20784313730000001" green="0.21960784310000001" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="8">
+                                <attributes>
+                                    <color key="NSColor" red="0.20784313725490194" green="0.2196078431372549" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content=" ">
+                                <attributes>
+                                    <color key="NSColor" red="0.20784313730000001" green="0.21960784310000001" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="People">
+                                <attributes>
+                                    <color key="NSColor" red="0.20784313725490194" green="0.2196078431372549" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="l2d-9n-zem" firstAttribute="top" secondItem="2BZ-E0-cGl" secondAttribute="top" constant="18" id="4wh-75-kGc"/>
+                <constraint firstItem="JNN-AY-324" firstAttribute="top" secondItem="EKC-De-VU6" secondAttribute="bottom" constant="23" id="6vJ-wX-1c3"/>
+                <constraint firstItem="v4c-X7-i3D" firstAttribute="leading" secondItem="2BZ-E0-cGl" secondAttribute="leading" id="88T-ZT-aWC"/>
+                <constraint firstItem="EKC-De-VU6" firstAttribute="trailing" secondItem="v4c-X7-i3D" secondAttribute="trailing" id="FEQ-LL-XmP"/>
+                <constraint firstItem="fEB-q8-xUy" firstAttribute="top" secondItem="TeQ-wE-2ko" secondAttribute="bottom" constant="19" id="FQm-pK-0qm"/>
+                <constraint firstAttribute="trailing" secondItem="fEB-q8-xUy" secondAttribute="trailing" constant="8" id="Fl4-dG-ZMo"/>
+                <constraint firstItem="l2d-9n-zem" firstAttribute="centerX" secondItem="2BZ-E0-cGl" secondAttribute="centerX" id="Inr-rX-nDq"/>
+                <constraint firstItem="EKC-De-VU6" firstAttribute="top" secondItem="v4c-X7-i3D" secondAttribute="bottom" constant="15" id="MjN-kK-eUb"/>
+                <constraint firstItem="EKC-De-VU6" firstAttribute="leading" secondItem="v4c-X7-i3D" secondAttribute="leading" id="PhM-dC-B1u"/>
+                <constraint firstItem="fEB-q8-xUy" firstAttribute="leading" secondItem="2BZ-E0-cGl" secondAttribute="leading" constant="8" id="SC5-XY-5vO"/>
+                <constraint firstItem="v4c-X7-i3D" firstAttribute="top" secondItem="l2d-9n-zem" secondAttribute="bottom" constant="13" id="V0X-tX-D9X"/>
+                <constraint firstItem="TeQ-wE-2ko" firstAttribute="top" secondItem="JNN-AY-324" secondAttribute="bottom" constant="13" id="VfK-oG-HFl"/>
+                <constraint firstItem="TeQ-wE-2ko" firstAttribute="centerX" secondItem="JNN-AY-324" secondAttribute="centerX" id="Zqm-pn-yQc"/>
+                <constraint firstItem="JNN-AY-324" firstAttribute="trailing" secondItem="EKC-De-VU6" secondAttribute="trailing" id="dQF-wn-Eu2"/>
+                <constraint firstItem="JNN-AY-324" firstAttribute="leading" secondItem="EKC-De-VU6" secondAttribute="leading" id="iXL-fY-PUo"/>
+                <constraint firstAttribute="trailing" secondItem="v4c-X7-i3D" secondAttribute="trailing" id="yln-mP-JCq"/>
+            </constraints>
+            <size key="customSize" width="151" height="286"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="5"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="189.5" y="346"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="image" width="171" height="171"/>
+    </resources>
+</document>

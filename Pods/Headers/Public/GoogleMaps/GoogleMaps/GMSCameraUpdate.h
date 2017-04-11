@@ -1,0 +1,5 @@
+XSym
+0105
+c4f29a8a699a979fb2bfae1755e4ec58
+../../../../GoogleMaps/Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSCameraUpdate.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

@@ -1,0 +1,5 @@
+XSym
+0106
+9c640d11dc2dd53f7a0f51250c8f5957
+../../../../GoogleMaps/Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSIndoorDisplay.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

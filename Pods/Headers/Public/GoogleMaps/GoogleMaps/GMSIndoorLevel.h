@@ -1,0 +1,5 @@
+XSym
+0104
+6cc4ead605860b4455a4262c246de6e5
+../../../../GoogleMaps/Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSIndoorLevel.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

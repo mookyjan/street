@@ -1,0 +1,5 @@
+XSym
+0103
+03f6ae3cdf9810eadcd278563cdaa2e4
+../../../../GoogleMaps/Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSUISettings.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

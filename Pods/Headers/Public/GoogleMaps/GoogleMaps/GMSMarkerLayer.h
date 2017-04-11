@@ -1,0 +1,5 @@
+XSym
+0104
+8766651d070160f66812f3339df1c8a6
+../../../../GoogleMaps/Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSMarkerLayer.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

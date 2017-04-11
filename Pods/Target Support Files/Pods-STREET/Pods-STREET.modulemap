@@ -1,0 +1,6 @@
+framework module Pods_STREET {
+  umbrella header "Pods-STREET-umbrella.h"
+
+  export *
+  module * { export * }
+}

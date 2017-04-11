@@ -1,0 +1,5 @@
+XSym
+0107
+a07c0496b0c6f7eafd3b90e001e14493
+../../../../GoogleMaps/Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSIndoorBuilding.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

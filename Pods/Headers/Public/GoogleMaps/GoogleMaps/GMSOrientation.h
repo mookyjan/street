@@ -1,0 +1,5 @@
+XSym
+0104
+eb10228f3a53f54fcbf3b4fd6727e2d6
+../../../../GoogleMaps/Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSOrientation.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

@@ -1,0 +1,5 @@
+XSym
+0116
+5e83fac0815da535b8038ab3a69e8958
+../../../../GoogleMaps/Subspecs/Base/Frameworks/GoogleMapsBase.framework/Versions/A/Headers/GMSCompatabilityMacros.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

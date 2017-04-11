@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="88" id="bRu-ez-L0v">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bRu-ez-L0v" id="Mh5-mT-GGJ">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="87"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ASK ITALIAN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yy5-cx-R7v">
+                        <rect key="frame" x="8" y="8" width="307" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="FOOD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rr8-vb-BDl">
+                        <rect key="frame" x="8" y="37" width="236" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 August 2015" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzy-gF-aT6">
+                        <rect key="frame" x="8" y="63" width="304" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 175" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="im1-QG-dta">
+                        <rect key="frame" x="273" y="37" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="im1-QG-dta" firstAttribute="leading" secondItem="rr8-vb-BDl" secondAttribute="trailing" constant="29" id="36b-4m-aef"/>
+                    <constraint firstItem="im1-QG-dta" firstAttribute="top" secondItem="yy5-cx-R7v" secondAttribute="bottom" constant="8" id="4mb-IJ-7tW"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="yy5-cx-R7v" secondAttribute="leading" id="5mN-hh-4Go"/>
+                    <constraint firstItem="gzy-gF-aT6" firstAttribute="leading" secondItem="rr8-vb-BDl" secondAttribute="leading" id="EDQ-Qn-EH5"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="yy5-cx-R7v" secondAttribute="trailing" constant="-3" id="Jw9-rc-fKu"/>
+                    <constraint firstItem="rr8-vb-BDl" firstAttribute="top" secondItem="yy5-cx-R7v" secondAttribute="bottom" constant="8" id="TbX-aB-QPn"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="gzy-gF-aT6" secondAttribute="trailing" id="Vuu-QJ-TBD"/>
+                    <constraint firstItem="gzy-gF-aT6" firstAttribute="top" secondItem="rr8-vb-BDl" secondAttribute="bottom" constant="10" id="a4X-LT-jUP"/>
+                    <constraint firstItem="im1-QG-dta" firstAttribute="trailing" secondItem="yy5-cx-R7v" secondAttribute="trailing" id="fqB-k6-cFc"/>
+                    <constraint firstAttribute="topMargin" secondItem="yy5-cx-R7v" secondAttribute="top" id="kG5-yF-Ix5"/>
+                    <constraint firstItem="rr8-vb-BDl" firstAttribute="leading" secondItem="yy5-cx-R7v" secondAttribute="leading" id="ujt-7e-Vk6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="188" y="168"/>
+        </tableViewCell>
+    </objects>
+</document>
